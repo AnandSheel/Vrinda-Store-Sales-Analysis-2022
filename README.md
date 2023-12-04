@@ -101,6 +101,8 @@ The second would be the months when the sales happened. This can be solved with 
 With this, our data cleaning is complete and ready for us to analyze. It is important to note here that a revenue column was not included in the dataset, so a few visuals and numbers would not be easily generated.
 
 
+
+
 # DATA ANALYSIS
 
 
@@ -113,10 +115,16 @@ In this section, I created my pivot tables to help analyze better. You should pr
 
 The second question is to know the gender that purchased most. On the pivot table, the ‘gender’ column goes to the row, and the ‘sum of amount’ goes to the values section.
 
+
+
 ![Screenshot 2023-12-04 183813](https://github.com/AnandSheel/Vrinda-Store-Sales-Analysis-2022/assets/149947209/baa9476d-955f-4c6a-8b1a-cf5fdf8a07eb)
 
 
+
+
 The third was to show the order status of the goods at the store. The ‘status’ column would be on the Row section and the ‘orderID’ on the values section.
+
+
 ![Screenshot 2023-12-04 183951](https://github.com/AnandSheel/Vrinda-Store-Sales-Analysis-2022/assets/149947209/93b6c90a-7dfd-4b46-b14d-321fa4ad919f)
 
 
@@ -134,6 +142,9 @@ Next would be the Age and Gender column. This is done by putting the ‘Gender�
 
 
 Finally, we have the channel category. To do this, we include the ‘Channels’ in the Row section and the ‘Count of OrderID’ in the Values section. Right-click again and select ‘show value as’, then select % of the total.
+
+
+
 ![Screenshot 2023-12-04 184404](https://github.com/AnandSheel/Vrinda-Store-Sales-Analysis-2022/assets/149947209/269a6287-0b3f-463e-bb11-4ee1cb5e2777)
 
 
@@ -141,14 +152,18 @@ Finally, we have the channel category. To do this, we include the ‘Channels’
 # DASHBOARD
 
 With all our tables and charts created, we can proceed to group all of them. To do this, we create another sheet and name it ‘Dashboard’. Copy and paste all our charts into this sheet. This is the finished look of the project and what I’ll share with the stakeholders. I also added 3 slicers to help navigate and show metrics for each sub-category (Month, Channel, Category). Connect the slicers to the dashboard and this is the final look.
+
+
 ![Screenshot 2023-12-04 184546](https://github.com/AnandSheel/Vrinda-Store-Sales-Analysis-2022/assets/149947209/e4b01ca3-dba4-41bf-8862-566608ae9500)
 
 
 # INSIGHTS
 
-From my findings, Women were our major buyers with 65% more than men. The age group representing the Adults (30 and above) were our major buyers also. Our products sold well on the Amazon, Flipkart, and Myntra channels with Maharashtra as the top selling state. Most orders were delivered, so our delivery channel is meant to be kept the same at the moment.
+From my findings, Women are more likely to buy compared to men with ~65%. 
+The age group representing the Adults (30-49 yrs) are major buyers. 
+Products sold well on the Amazon, Flipkart, and Myntra channels with Maharashtra, Karnataka, and Uttar Pradesh as the top selling states. Most orders were delivered, so our delivery channel is meant to be kept the same at the moment.
 
 Although a lot of good reports were made, to generate more sales we would have to appeal to the Male Gender. This would be from the choice of dressings sold. In 2022, most of our goods were women’s items of clothing. In 2023, we should put more sections up for the Males, and also run advertisements to let them know we’ve heard them.
 
-Also, Senior citizens seem not to like most of our products, this may be due to them not being able to use our website/platform to order and shop for goods. A simple introductory guide for users using our platform would be useful. Ads and Coupon codes could also be used to generate sales for all age sectors.
+Also, Senior citizens seem not to like most of our products, this may be due to them not being able to use our website/platform to order and shop for goods. A simple introductory guide for users using our platform would be useful. Ads, Coupon codes, and offers can also be used to generate sales for all age sectors.
 
